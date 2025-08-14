@@ -1,0 +1,24 @@
+{
+  "name": "example-react-compiler-babel",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack serve"
+  },
+  "dependencies": {
+    "@swc/helpers": "^0.5.17",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-refresh": "0.17.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.27.1",
+    "@rspack/cli": "1.4.11",
+    "@rspack/core": "1.4.11",
+    "babel-loader": "^10.0.0",
+    "babel-plugin-react-compiler": "^19.1.0-rc.2"
+  }
+}
